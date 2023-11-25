@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5.9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <p>Список товарів:</p>
+        <table>
+            <tr>
+                <td>Брюки</td>
+                <td>
+                    <input type="button" value="Замовити" onclick="func('Брюки')">
+                </td>
+            </tr>
+            <tr>
+                <td>Сорочка</td>
+                <td>
+                    <input type="button" value="Замовити" onclick="func('Сорочка')">
+                </td>
+            </tr>
+            <tr>
+                <td>Шорти</td>
+                <td>
+                    <input type="button" value="Замовити" onclick="func('Шорти')">
+                </td>
+            </tr>
+            <tr>
+                <td>Туфлі</td>
+                <td>
+                    <input type="button" value="Замовити" onclick="func('Туфлі')">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p>Кошик:</p>
+        <table>
+            <tr>
+                <td>Товар</td>
+                <td>Кількість</td>
+            </tr>
+            <tr>
+                <td class="ware">Брюки</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="ware">Сорочка</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="ware">Шорти</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td class="ware">Туфлі</td>
+                <td>0</td>
+            </tr>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
